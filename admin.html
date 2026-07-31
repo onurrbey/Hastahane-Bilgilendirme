@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bilgilendirme Ekranı Yönetimi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-page">
+  <main class="admin-wrap">
+    <header class="admin-header">
+      <h1>Bilgilendirme Ekranı Yönetimi</h1>
+      <p>Her satıra bir hekim veya eczane yazın. Kaydettiğiniz bilgiler TV ekranında anında güncellenir.</p>
+    </header>
+
+    <section class="admin-card">
+      <div class="field">
+        <label for="hospitalName">Üst başlık</label>
+        <input id="hospitalName" value="HASTANE BİLGİLENDİRME EKRANI">
+      </div>
+
+      <div class="field">
+        <label for="screenSubtitle">Alt başlık</label>
+        <input id="screenSubtitle" value="Güncel nöbet bilgileri">
+      </div>
+    </section>
+
+    <section class="admin-card">
+      <h2>Nöbetçi Hekimler</h2>
+      <div class="field">
+        <label for="doctors">Hekim listesi</label>
+        <textarea id="doctors" placeholder="Dr. Ahmet Yılmaz&#10;Dr. Ayşe Demir"></textarea>
+      </div>
+      <p class="help">Her satıra tek bir isim yazın.</p>
+    </section>
+
+    <section class="admin-card">
+      <h2>Nöbetçi Eczaneler</h2>
+      <div class="field">
+        <label for="pharmacies">Eczane listesi</label>
+        <textarea id="pharmacies" placeholder="Merkez Eczanesi - Esenler&#10;Şifa Eczanesi - Atışalanı"></textarea>
+      </div>
+      <p class="help">İsterseniz eczane adının yanına semt veya kısa adres ekleyebilirsiniz.</p>
+
+      <div class="actions">
+        <button id="saveButton" class="primary">Kaydet</button>
+        <a class="button-link secondary" href="index.html" target="_blank" rel="noopener">TV ekranını aç</a>
+      </div>
+      <div id="status" class="status"></div>
+    </section>
+  </main>
+
+  <script type="module" src="admin.js"></script>
+</body>
+</html>

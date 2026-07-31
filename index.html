@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hastane Bilgilendirme Ekranı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="display-page">
+  <main class="display-shell">
+    <header class="display-header">
+      <h1 id="hospitalName">HASTANE BİLGİLENDİRME EKRANI</h1>
+      <p id="screenSubtitle">Güncel nöbet bilgileri</p>
+    </header>
+
+    <section class="display-grid">
+      <article class="info-card">
+        <h2>NÖBETÇİ HEKİMLER</h2>
+        <ul id="doctorList" class="info-list">
+          <li class="empty">Bilgiler yükleniyor...</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h2>NÖBETÇİ ECZANELER</h2>
+        <ul id="pharmacyList" class="info-list">
+          <li class="empty">Bilgiler yükleniyor...</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer class="display-footer">
+      <span id="date"></span>
+      <span id="clock"></span>
+    </footer>
+  </main>
+
+  <script type="module" src="display.js"></script>
+</body>
+</html>
