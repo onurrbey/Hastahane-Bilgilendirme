@@ -375,3 +375,10 @@ body.display-page {
   background: #003f7d;
   color: #ffffff;
 }
+.footer-logo {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    height: 70px;
+    width: auto;
+    z-index: 1000;
