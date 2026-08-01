@@ -13,7 +13,6 @@ const contentRef = doc(db, "screen", "current");
 const doctorList = document.getElementById("doctorList");
 const pharmacyList = document.getElementById("pharmacyList");
 const hospitalName = document.getElementById("hospitalName");
-const screenSubtitle = document.getElementById("screenSubtitle");
 
 function renderList(element, items, emptyText) {
   element.innerHTML = "";
@@ -45,7 +44,6 @@ onSnapshot(contentRef, snapshot => {
 
   const data = snapshot.data();
   hospitalName.textContent = data.hospitalName || "HASTANE BİLGİLENDİRME EKRANI";
-  screenSubtitle.textContent = data.screenSubtitle || "Güncel nöbet bilgileri";
   renderList(doctorList, data.doctors, "Henüz hekim bilgisi girilmedi.");
   renderList(pharmacyList, data.pharmacies, "Henüz eczane bilgisi girilmedi.");
 }, error => {
