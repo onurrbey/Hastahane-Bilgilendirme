@@ -288,8 +288,9 @@ body.display-page {
 }
 
 .info-card h2 {
-  color: #ffffff;
-  border-bottom-color: #ffffff;
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+    font-size: 34px;
 }
 
 .info-list li {
