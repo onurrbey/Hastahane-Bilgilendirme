@@ -382,3 +382,8 @@ body.display-page {
     height: 70px;
     width: auto;
     z-index: 1000;
+.display-header h1 {
+  font-size: clamp(24px, 2.6vw, 48px);
+  line-height: 1.15;
+  margin: 0;
+}
