@@ -383,7 +383,7 @@ body.display-page {
     width: auto;
     z-index: 1000;
 .display-header h1 {
-  font-size: clamp(24px, 2.6vw, 48px);
+  font-size: 26px;
   line-height: 1.15;
   margin: 0;
 }
