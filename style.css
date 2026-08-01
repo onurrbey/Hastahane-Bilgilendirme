@@ -265,3 +265,113 @@ body.display-page {
   background: #003f7d;
   color: #ffffff;
 }
+/* TV EKRANI MAVİ TEMA */
+
+body.display-page {
+  background: #005baa;
+  color: #ffffff;
+}
+
+.display-header {
+  border-bottom-color: #ffffff;
+}
+
+.display-header h1,
+.display-header p {
+  color: #ffffff;
+}
+
+.info-card {
+  background: #07539a;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  box-shadow: none;
+}
+
+.info-card h2 {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.info-list li {
+  background: #064784;
+  color: #ffffff;
+  border-left-color: #ffffff;
+}
+
+.display-footer {
+  background: #003f7d;
+  color: #ffffff;
+/* TV EKRANI MAVİ TEMA */
+
+body.display-page {
+  background: #005baa;
+  color: #ffffff;
+}
+
+.display-header {
+  border-bottom-color: #ffffff;
+}
+
+.display-header h1,
+.display-header p {
+  color: #ffffff;
+}
+
+.info-card {
+  background: #07539a;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  box-shadow: none;
+}
+
+.info-card h2 {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.info-list li {
+  background: #064784;
+  color: #ffffff;
+  border-left-color: #ffffff;
+}
+
+.display-footer {
+  background: #003f7d;
+  color: #ffffff;
+}
+  /* TV EKRANI MAVİ TEMA */
+
+body.display-page {
+  background: #005baa;
+  color: #ffffff;
+}
+
+.display-header {
+  border-bottom-color: #ffffff;
+}
+
+.display-header h1,
+.display-header p {
+  color: #ffffff;
+}
+
+.info-card {
+  background: #07539a;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  box-shadow: none;
+}
+
+.info-card h2 {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.info-list li {
+  background: #064784;
+  color: #ffffff;
+  border-left-color: #ffffff;
+}
+
+.display-footer {
+  background: #003f7d;
+  color: #ffffff;
+}
