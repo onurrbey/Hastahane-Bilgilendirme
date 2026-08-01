@@ -396,3 +396,16 @@ body.display-page {
     margin-left: auto;
     margin-right: auto;
 }
+.center-logo {
+    text-align: center;
+    margin: 8px 0 12px;
+    overflow: hidden;
+}
+
+.center-logo img {
+    width: 220px;
+    max-width: 25vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
