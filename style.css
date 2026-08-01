@@ -1,10 +1,10 @@
 :root {
-  --bg: #f3f7fb;
+  --bg: #0f4c81;
   --panel: #ffffff;
   --primary: #0f4c81;
   --primary-dark: #0a355a;
   --accent: #d62828;
-  --text: #14213d;
+  --text: #ffffff;
   --muted: #64748b;
   --border: #dbe5ef;
 }
