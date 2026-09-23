@@ -7,7 +7,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="admin-page">
-  <main class="admin-wrap">
+  <main id:"adminPanel" class="admin-wrap" style=display:none">
+    <section id="loginScreen" style="max-width:420px;margin:60px auto;padding:24px;background:white;border-radius:12px;">
+  <h2>Bilgilendirme Paneli Girişi</h2>
+
+  <label for="loginUsername">Kullanıcı adı</label>
+  <input id="loginUsername" type="text" autocomplete="username" placeholder="Kullanıcı adınız">
+
+  <label for="loginPassword">Şifre</label>
+  <input id="loginPassword" type="password" autocomplete="current-password" placeholder="Şifreniz">
+
+  <button id="loginButton" type="button">Giriş yap</button>
+  <p id="loginStatus" role="status"></p>
+</section>
     <header class="admin-header">
       <h1>Bilgilendirme Ekranı Yönetimi</h1>
       <p>Her satıra bir hekim veya eczane yazın. Kaydettiğiniz bilgiler TV ekranında anında güncellenir.</p>
