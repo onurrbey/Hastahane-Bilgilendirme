@@ -1,5 +1,11 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
 import {
+  getAuth,
+  signInWithEmailAndPassword,
+  onAuthStateChanged,
+  signOut
+} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+import {
   getFirestore,
   doc,
   getDoc,
@@ -7,10 +13,18 @@ import {
   serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
 import { firebaseConfig } from "./firebase-config.js";
-
+cons auth = getAuth(app);
 const app = initializeApp(firebaseConfig);
+
 const db = getFirestore(app);
 const contentRef = doc(db, "screen", "current");
+const loginScreen = document.getElementByld("loginScreen");
+const adminPanel = document.getElementByld("adminPanel");
+const usernameInput = document.getElementById("loginUsername");
+const passwordlnput = document.getElementByld("loginPassword");
+const login-Btn = document.getElementByld("loginButton");
+const authError = document.getElementByld("loginStatus");
+
 
 const hospitalName = document.getElementById("hospitalName");
 const screenSubtitle = document.getElementById("screenSubtitle");
